@@ -81,7 +81,7 @@ public class DemoMain {
             } else {
                 logger.info("类型暂不支持 {}", property.getType());
             }
-            logger.info("您输入的内容是 {[]} ?", line);
+            logger.info("您输入的内容是 [{}]", line);
         }
         return variables;
     }
